@@ -1,0 +1,13 @@
+.text {
+    width: 50%;
+}
+
+.btn {
+    width: 30%;
+    padding: 12px;
+}
+
+#btnAdd {
+    margin-top: 10px;
+    border-radius: 24px;
+}

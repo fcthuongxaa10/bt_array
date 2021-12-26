@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <form class="d-flex">
+                <div class="text">
+                    <label for="exampleInputEmail1" class="form-label">Nhập các số nguyên</label>
+                    <input type="input" class="form-control" id="inputNumber" aria-describedby="emailHelp">
+                </div>
+                <div class="btn"><button id="btnAdd" type="button" class="btn btn-primary">Thêm Số</button></div>
+            </form>
+        </div>
+        <div class="alert alert-success" role="alert" id="txtNumber"></div>
+        <div>
+            <p>
+                <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample5" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    Đổi chổ
+                </a>
+            </p>
+            <div class="collapse" id="collapseExample5">
+                <div class="card card-body">
+                    <div>
+                        <form>
+                            <div class="d-flex">
+                                <input placeholder="nhập vị trí 1" type="input" class="form-control" id="vitri1">
+                                <input placeholder="nhập vị trí 2" type="input" class="form-control" id="vitri2">
+                            </div>
+                            <div class="btnDoiCho"><button id="btn6" type="button" class="btn btn-primary">Đổi Chổ</button></div>
+                        </form>
+                    </div>
+                    <div class="alert alert-success" role="alert" id="txtNumber6">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <p>
+                <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample7" role="button" aria-expanded="false" aria-controls="collapseExample ">
+                   Sắp Xếp Tăng Dần
+                </a>
+            </p>
+            <div class="collapse" id="collapseExample7">
+                <div class="card card-body">
+                    <div>
+                        <form>
+                            <div class="btnTangDan"><button id="btn7" type="button" class="btn btn-primary">Thêm Số</button></div>
+                        </form>
+                    </div>
+                    <div class="alert alert-success" role="alert" id="txtNumber7">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js " integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF " crossorigin="anonymous "></script>
+</body>
+
+</html>
